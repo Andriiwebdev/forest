@@ -1,0 +1,48 @@
+@media screen and (max-width: 1024px) { .product { flex-direction: column; align-items: center; height: auto; }
+    .product__left { width: auto; }
+    .product__right { width: 100%; }
+    .product__title { font-size: 52px; text-align: center; }
+    .product__img { margin: 15px auto; float: none; }
+    .about { flex-direction: column; align-items: center; }
+    .about__left { width: 80%; text-align: justify; }
+    .about__right { width: 100%; }
+    .about__img { width: 370px; display: block; float: none; margin: 15px auto; }
+    .buy__content { flex-direction: column; align-items: left; }
+    .buy__item { margin: 15px 0; }
+    .buy__item__btn { width: 100%; }
+    .buy__item:first-child { width: 50%; }
+    .buy__item:nth-child(2) { width: 75%; }
+    .buy__item:last-child { width: 100%; }
+    .scrinshot__item, .reviews__item, .dignity__item { width: 100%; }
+    .scrinshot__item { width: 100%; }
+    .scrinshot__item::before { height: 110px; }
+    .section-title { text-align: center; }
+    .footer__content { width: 100%; } }
+
+@media screen and (max-width: 768px) { .product { min-height: auto; }
+    .product__title { font-size: 7vw; }
+    .product__right { width: 100%; }
+    .product__img { width: 62%; height: 27vw; }
+    .product__item { font-size: 2.5vw; line-height: 5vw; }
+    .product__item::before { width: 3vw; height: 3vw; background-size: 3vw; }
+    .section-title { font-size: 4.3vw; }
+    .about__text { font-size: 2.3vw; line-height: 3vw; }
+    .about__img { width: 56%; height: 31vw; }
+    .dignity__item { font-size: 2.1vw; line-height: 3vw; }
+    .dignity__item::before { width: 4.5vw; height: 4.5vw; font-size: 5.6vw; padding: 0.9vw 0.5vw; }
+    .scrinshot__item { padding-left: 29vw; }
+    .scrinshot__item::before { width: 26.5vw; height: 15vw; }
+    .scrinshot__item__title { font-size: 3vw; line-height: 3vw; }
+    .scrinshot__item__text { font-size: 2.0vw; line-height: 3vw; }
+    .reviews__item__text { font-size: 1.9vw; line-height: 2.4vw; }
+    .reviews__item__img { width: 10vw; height: 10vw; }
+    .reviews__item__container { margin-left: 14vw; }
+    .reviews__item__author { font-size: 1.9vw; line-height: 2.4vw; }
+    .buy__item__list li { font-size: 1.9vw; line-height: 2.4vw; }
+    .footer__form { width: 100%; }
+    .footer__social { float: none; width: 100%; padding-left: 0; }
+    .footer__social__group { text-align: center; }
+    .social { display: inline-block; }
+    .social__text { font-size: 1.9vw; line-height: 2.4vw; } }
+
+@media screen and (max-width: 520px) { .social__text { font-size: 10px; } }
